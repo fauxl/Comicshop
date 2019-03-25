@@ -1,0 +1,43 @@
+package progetto;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class AdminControl extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	static boolean isDataSource = true;
+	static CartNavBar model;
+	static {
+		if (isDataSource) {
+		}
+	}
+
+	public AdminControl() {
+		super();
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		Cart cart = (Cart)request.getSession().getAttribute("cart");
+		if (cart == null) {
+			cart = new Cart();
+			request.getSession().setAttribute("cart", cart);
+		}
+		request.getSession().setAttribute("cart", cart);
+		request.setAttribute("cart", cart);
+
+		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/adminaccount.jsp");
+		dispatcher.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doGet(request, response);
+	}
+}

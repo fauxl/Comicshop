@@ -1,0 +1,2072 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	height: 90%;
+		font-size: 16px;
+}
+
+.icon{
+			display:none;
+	}
+
+body{
+	
+	background-image: url("../immagini/background.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	
+}
+#new {
+	overflow: hidden;
+}
+
+#newg {
+	overflow: hidden;
+}
+
+#new a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.5% 2.1% 0.5% 2.1%;
+	text-decoration: none;
+}
+
+
+.topnav input[type="image"] {
+    width: 17px;
+   
+}
+	
+
+#newg a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.5% 2.1% 0.5% 2.1%;
+	text-decoration: none;
+}
+
+#suggested {
+	overflow: hidden;
+}
+
+#suggested a {
+
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+
+	
+	padding: 0.5% 2.8% 0.5% 2.8%;
+	text-decoration: none;
+
+	
+}
+
+#centro {
+	margin-top: 4.2%;
+}
+
+.mySlides {
+	display: none
+}
+
+.w3-left, .w3-right, .w3-badge {
+	cursor: pointer
+}
+
+.w3-badge {
+	height: 13px;
+	width: 13px;
+	padding: 0
+}
+
+.topnav {
+	overflow: hidden;
+	background-color:#d9d8d5;
+	border-bottom-style:solid;
+	border-bottom-color:grey;
+	border-bottom-width:thin;
+
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.topnav a[href="comic"], .topnav a[href="gadget"], .topnav a[href="confronto"],
+	.topnav a[href="login"], .topnav a[href="home"], .topnav a[href="myaccount"],  .topnav a[href="adminaccount"]
+	{
+	float: left;
+	display: block;
+	color: black;
+	font-weight:normal;
+	text-align: center;
+	padding: 1.8% 3.5% 1.5% 3.5%;
+	text-decoration: none;
+}
+
+.topnav img {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0% 2% 1.5% 6%;
+	text-decoration: none;
+}
+
+.topnav input[type="text"] {
+	background-color:transparent;
+	color: black;
+	display: block;
+	margin: 1.7% 2% 1.5% -2%;
+	text-align: left;
+	float: left;
+	font-size:16px;
+	border: 0;
+	width: 65px;
+}
+
+
+#search  img {
+	width: 550px;
+	height: 150px;
+	background-color:rgba(255, 255, 255, 0.70);
+	margin-top: 10%;
+	padding: 6%;
+
+}
+
+.topnav input[type="text"]:FOCUS {
+	outline: none;
+	border-color: #000000;
+}
+
+.topnav input[type="text"]:FOCUS {
+	font-weight: bold;
+}
+
+.topnav input[type="search"] {
+	float: left;
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	border-style: ridge;
+	border-color: black;
+	border-width: thin;
+	border-right:0;
+}
+
+.topnav input[type="image"] {
+	float: left;
+	display: inline;
+	margin-right: 4%;
+	width:  19px;
+	background-color: white;
+	margin-top: 1.2%;
+	padding: 0.49%;
+	border-style: ridge;
+	border-color: black;
+	border-width: thin;
+	border-left:0;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button,
+	input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration
+	{
+	display: none;	
+}
+
+input[type="search"] {
+	margin-top: 1.2%;
+	margin-left: 4%;
+	padding: 0.5%;
+	width: 15%;
+	text-align: left;
+
+}
+
+.topnav a#title {
+	font-family: 'Amatic SC', cursive;
+	font-size: 300%;
+	padding: 0.6% 5% 0.25% 4%;
+}
+
+.topnav #carrello {
+	margin: 0;
+	padding: 0.4% 3% 0.2% 0%;
+	margin-left: 3%;
+	margin-top: 1%;
+	width: 30px;
+	height: 30px;
+	
+}
+
+td a:hover{
+	
+		font-weight: normal;
+		text-decoration: underline;
+	
+}
+
+a:hover{
+			font-weight: bold;
+
+}
+
+footer a:hover{
+	
+	font-weight: normal;
+	color:black;
+}
+
+.topnav a:hover {
+	
+	font-weight: bold;
+}
+
+.downnav {
+	overflow: hidden;
+}
+
+footer {
+	background-color: #f7f7f7;
+	color: grey;
+	
+	border-top-style: solid;
+	border-top-color: grey;
+	border-top-width: thin;
+}
+
+
+#copyright {
+	text-align: center;
+	font-weight: bold;
+	padding: 1% 0% 1% 0%;
+	color: black;
+	margin-top:0%;
+
+}
+
+footer ul {
+	margin: 0;
+}
+
+footer li {
+	margin-left: -5%;
+	padding:0;
+}
+
+#sopra {
+	margin-top: 4.5%;
+
+}
+
+#oggetto {
+	display: table-cell;
+	padding: 0% 0% 1% 3%;
+	width: 10%;
+}
+
+#oggettog {
+	display: table-cell;
+	padding: 1% 1% 1% 1%;
+	width: 10%;
+}
+
+#descrizione {
+	display: table-cell;
+	width: 38%;
+	vertical-align: top;
+	padding: 2% 3% 1% 0%;
+	text-align: justify;
+}
+
+
+#descrizione2 {
+	display: table-cell;
+	width: 38%;
+	vertical-align: top;
+	padding: 2% 3% 1% 0%;
+	text-align: justify;
+}
+
+#consigliati {
+	
+	padding: 1% 0% 0% 0%;
+}
+
+#informazioni {
+	
+	display: table-cell;
+	vertical-align: top;
+	width: 50px;
+	padding: 2% 0% 0% 10%;
+}
+
+#contatti {
+	display: table-cell;
+	vertical-align: top;
+	width: 50px;
+	padding: 2% 0% 0% 0%;
+}
+
+footer hr {
+	width: 250px;
+	margin-left: 0%;
+}
+
+#contatti hr {
+	
+	width: 250px;
+	margin-left: 0%;
+}
+
+
+#tablefooter {
+	display: table;
+	overflow: hidden;
+	width:50%;
+}
+
+#rowfooter {
+	display: table-row;
+	width: 100%;
+}
+
+#table {
+	display: table;
+	width: 100%;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+
+#row {
+	display: table-row;
+	width: 100%;
+}
+
+#tabledes {
+	display: table;
+	width: 100%;
+	vertical-align: top;
+}
+
+#rowdes {
+	display: table-row;
+	width: 100%;
+}
+
+#specs {
+	display: table-cell;
+	width: 30%;
+	vertical-align: top;
+	padding-top: 4.5%;
+	padding-left: 8%;
+}
+
+#specs2 {
+	display: table-cell;
+	width: 30%;
+	vertical-align: top;
+	padding-top: 4.5%;
+	padding-left: 8%;
+}
+
+#add {
+	vertical-align: top;
+	display: table-cell;
+	width: 30%;
+	padding-left: 19%;
+	padding-right: 0%;
+	padding-top: 3%;
+}
+
+#add2 {
+	vertical-align: top;
+	display: table-cell;
+	width: 40%;
+	padding-right: 10%;
+}
+
+#add2 p {
+	padding-bottom: 3%;
+	padding-top: 11.5%;
+}
+
+#addcart:hover{
+	background-color: #d9d8d5;	
+}
+
+#aggiungi:hover{
+		background-color:#d9d8d5;	
+	
+	
+}
+#main {
+	
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding: 1% 7% 3% 7%;
+	margin-top: 1%;
+	background-color: rgba(255, 255, 255, 0.70);
+}
+
+
+#goods {
+	padding: 1% 7% 2% 7% ;
+
+	background-color: white;
+}
+
+.container {
+
+	min-height: 100%;
+	height: auto ;
+	height: 100%;
+	
+}
+
+
+
+#tablelogin {
+	display: table;
+	vertical-align: top;
+}
+
+#rowlogin {
+	display: table-row;
+}
+
+#login {
+	display: table-cell;
+	width: 20%;
+	vertical-align: top;
+	padding: 2% 8% 3% 3%;
+}
+
+#registrazione {
+	display: table-cell;
+	width: 20%;
+	vertical-align: top;
+	padding: 2% 3% 3% 8%;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+h4 {
+	margin: 0;
+	font-weight: normal;
+}
+
+span {
+	font-weight: bold;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+dt {
+	font-weight: bold;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
+
+footer a {
+	text-decoration: none;
+	color: grey;
+}
+
+footer a:hover {
+	color: black;
+}
+
+footer h4 {
+	color: black;
+}
+
+input {
+	outline: none;
+}
+
+#registrazione input[type="submit"] {
+	width:  150px;
+	margin-top: 3%;
+	margin-left: 50%;
+	text-align: center;
+	background-color:   rgba(255, 255, 255, 0.70);
+	display: block;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	padding: 1%;
+}
+
+#login input[type="submit"] {
+	width: 150px;
+	margin-left: 50%;
+	margin-top: -10%;
+	margin-bottom: 10%;
+	background-color:   rgba(255, 255, 255, 0.70);
+	text-align: center;
+	display: block;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	padding: 1%;
+}
+
+
+#login input[type="email"] {
+	width: 200px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="password"] {
+	width:200px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="date"] {
+	width: 200px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+select {
+	width: 100%;
+	height: 80%;
+	margin-bottom: 2%;
+	background-color: rgba(255, 255, 255, 0.70);
+	text-align: center;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	display: block;
+	padding: 2%;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+select:focus {
+	background-color: white;
+}
+
+input[type="search"] {
+	width: 200px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+#dati1 input[type="text"], #dati3 input[type="text"],#dati2 input[type="text"],#dati4 input[type="text"]{
+	width: 150px;
+	
+}
+
+#dati2  input[type="email"]{
+	width: 150px;
+}
+
+#dati4 input[type="password"], #dati3 input[type="password"] {
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]:ACTIVE {
+	background-color: #e8e8e8;
+}
+
+#login input[type="submit"]:hover {
+		text-decoration: underline;
+}
+
+#registrazione input[type="submit"]:hover {
+		text-decoration: underline;
+}
+
+input[type="button"]:HOVER {
+	background-color: #e8e8e8;
+}
+
+#mittente {
+	vertical-align: top;
+	padding: 4%;
+	padding-left: 15%;
+	margin-left: 15%;
+	display: table-cell;
+	width: 40%;
+}
+
+#messaggio {
+	vertical-align: top;
+	padding: 2%;
+	padding-right: 15%;
+	margin-right: 15%;
+	text-align: justify;
+	display: table-cell;
+	width: 30%;
+}
+
+#send input[type="submit"] {
+	width: 100px;
+	margin-left: 75%;
+	background-color: rgba(255, 255, 255, 0.70);
+	text-align: center;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	padding:0.5% 1% 0.5% 1%;
+}
+
+#send input[type="submit"]:hover {
+	
+text-decoration: underline;
+	
+}
+
+#mittente input[type="text"] {
+	width: 200px;
+}
+
+#messaggio textarea {
+	width:500px;
+}
+
+#send input[type="submit"] {
+	margin-left: 70%;
+
+}
+
+#privacy {
+	padding-top: 1%;
+	padding-left: 15%;
+}
+
+input[type=checkbox] {
+	margin: 0;
+}
+
+#dati1 {
+	display: table-cell;
+	width:20%;
+	vertical-align: top;
+	padding: 1% 8% 2% 10%;
+	text-align: justify;
+}
+
+#dati2 {
+	display: table-cell;
+	width: 10%;
+	vertical-align: top;
+	padding: 1% 0% 2% 0%;
+	text-align: justify;
+}
+
+#dati3 {
+	display: table-cell;
+	width: 20%;
+	vertical-align: top;
+	padding: 1% 8% 2% 8%;
+	text-align: justify;
+}
+
+#dati4 {
+	display: table-cell;
+	width: 20%;
+	vertical-align: top;
+	padding: 1% 10% 2% 0%;
+	text-align: justify;
+}
+
+
+#privacy2 {
+	padding-top: 1%;
+	padding-left: 10%;
+
+}
+
+#send2 input[type="submit"] {
+	width: 150px;
+	margin-left: 74.5%;
+	background-color: rgba(255, 255, 255, 0.70);
+	text-align: center;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	padding: 0.5%;
+}
+
+#scritta:hover{
+	text-decoration: underline;
+
+}
+
+fileContainer {
+    overflow: hidden;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.fileContainer [type=file] {
+    cursor: pointer;
+}
+
+.fileContainer {
+    background-color:rgba(255, 255, 255, 0.70); ;
+   border-color:black;
+	border-style:ridge;
+	border-width:thin;
+    float: left;
+    padding: 2% 3% 2% 3%;
+}
+
+#scritta{
+	    font-size: 13px;
+	    font-weight: normal;	
+}
+
+#send2 input[type="submit"]:hover {
+	text-decoration: underline;
+	}
+
+
+#parametri {
+	display: table-cell;
+	width: 30%;
+	vertical-align: top;
+	padding: 2% 4% 0% 3%;
+}
+
+#else {
+	font-weight: bold;
+	padding-top: 1%;
+}
+
+#prodotti {
+	display: table-cell;
+	width: 70%;
+	vertical-align: top;
+	padding: 2% 5% 1% 2%;
+	overflow: hidden;
+	text-align: justify;
+	margin: 5%;
+}
+
+#prodotti a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 1% 2.5% 1% 2.5%;
+	text-decoration: none;
+	text-align: center;
+}
+
+#tabella table {
+	display: table;
+
+	
+	width: 100%;
+	border-color: grey;
+	border-collapse: collapse;
+}
+
+#tabella {
+	padding: 2% 7% 0% 7%;
+}
+
+#tabella h3 {
+	padding-top: 2%;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin: 0;
+	text-align: center;
+}
+
+th {
+	background-color:  rgba(255, 255, 255,1);
+padding: 1% 1% 1% 1%;
+	border-color: grey;
+	border-width: thin;
+	text-align: justify;
+	border-style: solid
+}
+
+td {
+	border-color: grey;
+	border-width: thin;
+	border-style: solid;
+	text-align: justify;
+	
+		padding: 1.5% 1.5% 1.5% 1.5%;	
+}
+
+#cart2 input[type="text"] {
+	margin: 0% 2% 0% 20%;
+	background-color: transparent;
+	color: black;
+	display: inline;
+	text-align: right;
+	border: 0;
+	width: 20%;
+}
+
+#cart2 {
+	display: table-cell;
+	padding: 4% 0% 1% 00%;
+	vertical-align: top;
+	width: 20%;
+}
+
+#cart2 input[type="submit"] {
+	width: 200px;
+	display: block;
+	padding: 3%;
+	background-color: rgba(255, 255, 255, 0.70);
+	text-align: center;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	margin: 10% 0% 0% 0%;
+}
+
+#cart2 input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
+#aggiungi {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.70);
+	padding: 6%;
+	
+	border-radius: 7px;
+}
+
+#addcart {
+	width: 40px;
+	height: 35px;
+	background-color: rgba(255, 255, 255, 0.70);
+	margin-top: 10%;
+	padding: 6%;
+
+	border-radius: 7px;
+}
+
+/* Contenitore */
+.breadcrumb {
+	padding: 0px;
+	margin-bottom: 2%;;
+	list-style: none;
+	border-radius: 4px;
+}
+
+/* Padding, colore e simbolo del separatore */
+.breadcrumb>li+li:before {
+	padding: 0 5px;
+	color: black;
+	content: "/\00a0";
+}
+
+/* Colore dell'item attivo */
+.breadcrumb>.active {
+	color: #545451;
+}
+
+ul.breadcrumb li {
+	display: inline;
+}
+
+#navtocart:HOVER {
+	background-color: #e8e8e8;
+}
+
+#categoria {
+	display: table-cell;
+	width: 30%;
+	vertical-align: top;
+	padding: 2% 4% 0% 3%;
+}
+
+#categoria a:HOVER {
+text-decoration: underline;
+}
+
+#categoria a {
+	text-align: right;
+	padding: 2%;
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+.breadcrumb a:HOVER {
+	font-weight: bold;
+}
+
+.area a:HOVER {
+	font-weight: bold;
+}
+
+.area h3 {
+	margin: 0;
+}
+
+#parametri input[type="submit"] {
+	width: 35%;
+	margin-top: 20%;
+	margin-bottom: 0%;
+	background-color:rgba(255, 255, 255, 0.70);
+	text-align: center;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	padding: 2% 5%;
+}
+
+#parametri input[type="reset"] {
+	width: 35%;
+	margin-top: 20%;
+	margin-right: 28%;
+
+	margin-bottom: 0%;
+	background-color: rgba(255, 255, 255, 0.70);
+	text-align: center;
+	border-color:black;
+	border-style:ridge;
+	border-width:thin;
+	padding: 2% 5%;
+}
+
+#parametri input[type="submit"]:hover {
+text-decoration: underline;
+	}
+
+#parametri input[type="reset"]:hover {
+text-decoration: underline;
+	}
+
+/* Responsive */
+@media screen and (max-width: 1600px) {
+	.topnav a[href="comic"], .topnav a[href="gadget"], .topnav a[href="confronto"],
+		.topnav a[href="login"], .topnav a[href="home"], .topnav a[href="myaccount"]  {
+		padding: 1.8% 2.7% 1.5% 2.7%;
+	}
+	.topnav a#title {
+		font-size: 220%;
+		padding: 0.8% 3% 0.25% 4%;
+	
+	}
+	
+.topnav a[href="adminaccount"]{
+
+	padding: 1.8% 0.5% 1.5% 2%;
+}
+	
+	
+	
+#cart2 input[type="submit"] {
+	
+	margin: 10% 0% 0% -10%;
+}
+	
+	.topnav input[type="text"]{
+	    margin: 1.8% 0% 1.5% 0%;
+	    
+	}
+	
+	.topnav input[type="search"] {
+	font-size: 16px;
+	}
+	
+	.topnav input[type="image"] {
+	    width: 18px;
+	
+	}
+	
+	.topnav #carrello {
+
+	padding: 0.3% 1% 0.2% 0%;
+	
+	
+}
+	
+	 #sopra{
+	 	margin-top: 5.5%;
+	 }
+	
+	#new a {
+		padding: 0.5% 2.1% 0.5% 2.1%;
+	}
+	#newg a {
+		padding: 0.5% 2% 0.5% 2%;
+	}
+	#prodotti a {
+		padding: 1% 3% 1% 3%;
+	}
+	
+	#add2 p {
+
+	padding-top: 10%;
+}
+	
+}
+
+
+@media screen and (max-width: 1200px) {
+	
+	html, body{
+		font-size: 15px;
+	}
+	
+	.topnav a[href="comic"], .topnav a[href="gadget"], .topnav a[href="confronto"],
+		.topnav a[href="login"], .topnav a[href="home"], .topnav a[href="adminaccount"], .topnav a[href="myaccount"]  {
+		padding: 2% 2% 1.5% 2%;
+	}
+	
+	.topnav a[href="adminaccount"]{
+
+	padding: 2% 0.5% 1.5% 2%;
+}
+
+	
+	.topnav a#title {
+		font-size: 220%;
+		padding: 0.8% 1% 0.25% 4%;
+	}
+	
+	.topnav #carrello {
+
+	padding: 0.3% 1% 0.2% 0%;
+}
+	
+	#cart2 input[type="submit"] {
+	
+	margin: 10% 0% 0% -30%;
+}
+	.topnav input[type="text"]{
+	    margin: 1.9% 0% 1.5% 0%;
+	    font-size:15px;
+	
+	}
+	#send2 input[type="submit"] {
+	
+	margin-left: 75%;
+	}
+	
+	.topnav input[type="search"] {
+	font-size: 16px;
+	}
+	
+	
+	#login input[type="submit"] {
+	margin-left: 55%;
+	margin-top: 10%;
+	margin-bottom: 0%;
+	}
+	
+	#registrazione input[type="submit"] {
+	margin-top: 10%;
+	margin-left: 50%;
+}
+
+	#copyright {
+	padding: 1% 0% 0% 0%;
+}
+
+#mittente {
+	padding-left:0;
+	margin-left: 15%;
+	
+}
+
+#privacy {
+
+	padding-left: 0%;
+}
+
+
+#messaggio {
+	
+	padding-right: 0%;
+	
+	margin-right: 0%;
+
+}
+
+#send input[type="submit"] {
+	margin-left: 88%;
+
+}
+
+	footer{
+		padding:1%;
+	}
+	
+	#tablefooter {
+	
+	width:75%;
+}
+
+#copyright{
+	
+	padding-top:2%;
+	margin-bottom:1%;
+	
+}
+	
+		
+	#dati1 {
+	
+	padding: 1% 5% 2% 5%;
+	
+	}
+	
+	#dati3 {
+		padding: 1% 5% 2% 5%;
+		
+	}
+		#dati4 {
+		padding: 1% 5% 2% 0%;
+		
+	}
+	
+	#prodotti a {
+		padding: 1% 3.6% 1% 3.6%;
+	}
+	
+	#new a {
+    
+    padding: 0.5% 1.8% 0.5% 1.8%;
+
+}
+	#newg a {
+    
+    padding: 0.5% 1.5% 0.5% 1.5%;
+
+}
+
+
+	
+}
+
+@media screen and (max-width: 1024px) {
+
+.topnav a[href="comic"], .topnav a[href="gadget"], .topnav a[href="confronto"],
+		.topnav a[href="login"], .topnav a[href="home"],  .topnav a[href="adminaccount"], .topnav a[href="myaccount"] {
+		padding: 2% 1.4% 1.5% 1.4%;
+	}
+	
+	.topnav a[href="adminaccount"] {
+		padding: 2% 0.4% 1.5% 1.5%;
+	}
+	
+	#prodotti a {
+		padding: 1% 1.5% 1% 1.5%;
+	}
+	
+	.topnav input[type="search"] {
+	font-size: 15.2px;
+	}
+	
+	
+	#new a {
+    
+    padding: 0.5% 1.5% 0.5% 1.5%;
+
+}
+
+	#newg a {
+    
+    padding: 0.5% 1.5% 0.5% 1.5%;
+
+}
+
+#mittente{
+	
+	padding-right: 0%;
+	padding-left:0%;
+	vertical-align: top;
+	
+}
+	
+#messaggio{
+	
+	padding-left:0;
+    width: 20%;
+}
+
+
+#send input[type="submit"] {
+	margin-left: 60%;
+
+}
+
+#addcart {
+
+	margin-top: 15%;
+}
+
+
+
+#send2 input[type="submit"] {
+	
+	margin-left: 75%;
+	}
+	
+	#privacy2 {
+    padding-top: 1%;
+    padding-left: 5%;
+	}
+	
+	#add {
+ 
+    padding-left: 10%;
+
+}
+
+
+}
+
+@media screen and (max-width: 966px) {
+  .topnav a:not(:first-child) {display: none;}
+
+	
+		.topnav a#title{
+		padding: 0% 3% 0.75% 8%;
+		
+	}
+	
+	#dati1{
+	 display: block;
+	 width:100%;
+	 padding:0;
+	 padding-top:1%;
+	    vertical-align: top;
+	
+}
+
+#dati2{
+	 	 display:  block;
+	 	 width:100%;
+	 	 padding:0;
+	   
+}
+
+#dati3{
+	display: block;
+	width:100%;
+	padding:0;
+	  
+}
+
+#dati4{
+	display:  block;
+	width:100%;
+	padding:0;
+	padding-bottom:2%;	
+}
+
+#dati4 textarea{
+	   width: 99%;
+	
+}
+
+#dati3 textarea{
+	   width: 99%;
+	
+}
+
+
+#dati1 input[type="text"], #dati3 input[type="text"], #dati2 input[type="text"], #dati4 input[type="text"] {
+    width: 99%;
+    
+}
+
+#dati2 input[type="email"] {
+   width: 99%;
+}
+
+#dati4 input[type="password"], #dati3 input[type="password"] {
+   width: 99%;
+}
+	
+	
+	.topnav {
+	overflow: hidden;
+	text-align: center;
+	
+	padding-top:1%;
+	
+}
+
+.topnav input[type="search"] {
+	font-size: 15.5px;
+	}
+
+#centro{
+	
+	padding-top:2.1%;
+}
+
+#ricerca{
+		margin-left: 35%
+			}
+
+
+.topnav a.icon {
+	
+		overflow: hidden;
+		float: right;
+		display: block;
+			padding: 0.9% 8% 0.2% 0%;
+		
+		font-size:18px;
+		color: black;
+	}
+	
+	.topnav #carrello {
+	margin-left: 0%;
+	
+	}
+
+
+	
+	
+ .topnav.responsive {
+ position: fixed;}
+ 
+  .topnav.responsive .icon {
+  
+    position: absolute;
+    right:0.5px;
+    top: 2.8%;
+  }
+  
+  .topnav.responsive a {
+  padding-left:8%;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+   .topnav.responsive #ricerca{
+   position: absolute;
+    left:0%;
+    font-size: 15.5px;
+    width:65%;
+    top: 3%;
+   }
+
+   
+   	#new a {
+    
+    padding: 0.5% 1.5% 0.5% 1.5%;
+
+}
+
+	#newg a {
+    
+    padding: 0.5% 2% 0.5% 2%;
+
+}
+
+	#prodotti a {
+		padding: 1% 0.9% 1% 0.9%;
+	}
+  
+#parametri input[type="reset"] {
+	padding:2%;
+		width: 40%;
+
+ }
+ 
+#parametri input[type="submit"] {
+		width: 40%;
+		padding:2%;
+		
+	} 
+	
+	#login input[type="submit"]{
+		margin-top: 14.5%;
+
+	}
+
+#copyright {
+
+	padding-top:2%;
+	margin-bottom:1%;
+	
+}
+
+#tablefooter {
+	
+	width:100%;
+}
+	
+	
+} 
+
+
+@media screen and (max-width: 850px) {
+	
+			.topnav input[type="image"] {
+    width: 17px;
+}
+	
+	   .topnav input[type="search"]{
+  
+    font-size: 15px;
+	
+	}
+#sopra{
+	
+	margin-top:7%;
+}	
+	
+#mittente{
+    width: 100%;
+	
+  display: inline;
+	padding-right: 0%;
+	padding-left:0%;
+	vertical-align: top;
+	
+}
+
+#mittente input[type="text"] {
+    width: 500px;
+}
+#messaggio{
+	  display: block;
+	padding-left:0;
+    width: 800px;
+    
+}
+
+
+#send input[type="submit"] {
+	margin-left: 60%;
+}
+	
+	
+#parametri {
+  	display: block;
+  	margin-left:10%;
+  	width: 100%;
+    vertical-align: top;
+}
+
+select {
+	width: 75%;
+	height: 40%;
+		padding:1%;
+}
+
+#prodotti {
+	display: block;
+  	width:100%;
+  	margin:0;
+
+}
+
+#prodotti a {
+		padding: 1% 2% 1% 2%;
+	}
+
+#parametri input[type="submit"] {
+	width: 100px;	
+	margin-top: 10%;
+		padding:1%;
+	margin-left:19%;
+	
+}
+
+#parametri input[type="reset"] {
+	width: 100px;	
+	margin-top: 10%;
+	padding:1%;
+}
+
+#oggetto {
+   	display: block;
+    width: 100%;
+    margin:0;
+    padding-left:0;
+        vertical-align: top;
+       text-align: center;
+}
+
+#oggettog {
+   	display: block;
+    width: 100%;
+    margin:0;
+    padding-left:0;
+        vertical-align: top;
+       text-align: center;
+    
+}
+
+
+#descrizione {
+   	display: block;
+	width: 100%;
+	padding: 2% 0% 1% 0%;
+	text-align: justify;
+
+}
+
+#descrizione2 {
+   	display: block;
+	width: 90%;
+	padding: 2% 0% 1% 0%;
+	text-align: justify;
+
+}
+
+#addcart {
+
+	margin-top: 8%;
+}
+
+#add {
+	
+	padding-left: 19%;
+	
+}
+   	#new a {
+    
+    padding: 0.5% 1.5% 0.5% 1.5%;
+
+}
+
+	#newg a {
+    
+    padding: 0.5% 2.5% 0.5% 2.5%;
+
+}
+
+	#prodotti a {
+		padding: 1% 1.5% 1% 1.5%;
+	}
+
+#registrazione {
+
+   display: block;
+    width: 100%;
+    vertical-align: top;
+padding-left:0;
+padding-right:0;
+
+}
+
+#login{
+	   display: block;
+padding-left:0;
+padding-right:0;	
+	    width: 100%;
+	
+}
+
+	#registrazione input[type="submit"] {
+	margin-top: 8%;
+	margin-left: 70%;
+}
+
+#login input[type="submit"] {
+	margin-top: 8%;
+	margin-left: 70%;
+}
+
+
+#send2 input[type="submit"] {
+    margin-left: 78%;
+   	margin-top: 1%;
+}
+
+.fileContainer {
+    background-color: rgba(255, 255, 255, 0.70);
+   
+    padding: 1% 2% 1% 2%;
+}
+
+#tabella {
+	font-size: 12px;
+	
+}
+
+#categoria {
+	display: block;
+	width: 100%;
+	vertical-align: top;
+}
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+		
+.topnav a:not(:first-child) {display: none;}
+
+.topnav a.icon {
+			padding: 1.2% 8% 0.2% 0%;
+
+	}
+	
+	
+		.topnav a#title{
+		padding: 0% 3% 0.75% 8%;
+		
+	}
+	
+	
+	.topnav {
+	overflow: hidden;
+	text-align: center;
+	
+	padding-top:1%;
+	
+}
+
+.topnav input[type="search"] {
+	font-size: 15.5px;
+	}
+
+#ricerca{
+	
+	display:none;
+}
+
+#centro{
+	
+	padding-top:3.5%;
+}
+
+#ricerca{
+		margin-left: 35%
+			}
+
+
+.topnav a.icon {
+	
+		overflow: hidden;
+		float: right;
+		padding: 1%;		
+		display: block;
+			padding: 1.2% 8% 0.2% 0%;
+		
+		font-size:18px;
+		color: black;
+	}
+	
+	.topnav #carrello {
+	margin-left: 0%;
+	
+	}
+	
+ .topnav.responsive {
+ position: fixed;}
+ 
+  .topnav.responsive .icon {
+  
+    position: absolute;
+    right:0.5px;
+    top: 2.8%;
+  }
+  
+   .topnav.responsive a[href="comic"]{
+ 	  margin-top:4%;
+   
+   }
+  
+  .topnav.responsive a {
+  	padding-left:8%;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+   .topnav.responsive #ricerca{
+   	display:inline;
+    left:-29%;
+	margin-top:0.5%;
+    font-size: 15.5px;
+    width:40%;
+    top: 18%;
+   }
+
+.topnav input[type="image"]{
+
+    width: 18px;
+    background-color: white;
+    margin-top: 1.2%;
+}
+
+.topnav input[type="search"] {
+	width:80px;
+    font-size: 16px;
+ 
+}
+
+topnav #carrello {
+    width: 15px;
+    height: 15px;
+}
+
+#parametri input[type="submit"] {
+	
+	margin-left:12%;
+	
+}
+}
+
+@media screen and (max-width: 560px) {
+
+
+	
+	.topnav a.icon {
+			padding: 2.5% 8% 0.2% 0%;
+
+	}
+	
+	
+#mittente{
+    width: 100%;
+	
+  display: inline;
+
+	vertical-align: top;
+	
+}
+
+#mittente input[type="text"] {
+    width: 300px;
+}
+#messaggio{
+	  display: block;
+    
+}
+
+#messaggio textarea {
+    width: 300px;
+}
+
+#send input[type="submit"] {
+	margin-left: 60%;
+}
+	
+	
+	
+	#informazioni {
+	
+	display: block;
+	width:100%;
+	vertical-align: top;
+}
+
+#send2 input[type="submit"] {
+    margin-left: 55%;
+	}
+
+	#registrazione input[type="submit"] {
+
+    margin-left: 50%;   
+}
+	
+	#sopra {
+    margin-top: 10%;
+}
+	
+	#add {
+	
+	padding-left: 10%;
+}
+
+#addcart {
+    margin-top: 10%;
+}
+
+#parametri input[type="submit"] {
+	
+	margin-left:-10%;
+	
+}
+	
+
+
+	#dati1 input[type="text"], #dati3 input[type="text"], #dati2 input[type="text"], #dati4 input[type="text"] {
+    width: 98%;
+    
+}
+
+#dati2 input[type="email"] {
+   width: 98%;
+}
+
+#dati4 input[type="password"], #dati3 input[type="password"] {
+   width: 98%;
+}
+	
+	
+	#centro{
+		margin-top: 6%;
+}
+
+
+	   	#new a {
+    
+    padding: 0.5% 3.8% 0.5% 3.8%;
+
+}
+
+	#newg a {
+   
+    padding: 0.5% 0.3% 0.5% 0.3%;
+
+}
+
+	#prodotti a {
+		padding: 1% 3.5% 1% 3.5%;
+	}
+
+#contatti{
+	width:100%;
+		padding: 2% 0% 0% 10%;
+		display: block;
+}
+	footer hr{
+	
+	width:80%;
+	}
+	#contatti hr{
+		width:80%;}
+	
+	#copyright{
+	
+	margin-top: 2%;
+	}
+	
+
+	
+	
+	}
+
+
+@media screen and (max-width: 415px) {
+	
+	.topnav input[type="image"] {
+    width: 15px;
+   
+}
+
+
+
+.topnav a.icon {
+			padding: 2.5% 8% 0.2% 0%;
+
+	}
+	
+
+	#registrazione input[type="submit"] {
+
+    margin-left: 50%;   
+}
+	#login input[type="submit"] {
+
+    margin-left: 50%;   
+}
+	
+
+#centro{
+		margin-top: 7.5%;
+}
+	html, body{
+		font-size: 14px;
+	}
+	
+	.topnav input[type="search"] {
+		font-size: 13px;
+ 
+}
+
+#parametri input[type="submit"] {
+	
+	margin-left:-10%;
+	
+}
+	
+	#sopra {
+    margin-top: 10%;
+}
+	
+		#new a {
+    
+    padding: 0.5% 4.4% 0.5% 4.4%;
+
+}
+
+	#newg a {
+    
+    padding: 0.5% 0.5% 0.5% 0.5%;
+
+}
+
+	#prodotti a {
+		padding: 1% 3.5% 1% 3.5%;
+	}
+		#tabella {
+padding-left:0;	
+padding-right:0;	
+
+}
+	#send2 input[type="submit"] {
+    margin-left: 55%;
+	}
+	
+	.topnav #carrello {
+  
+    margin-left: 0%;
+ 
+    width:25px;
+    height: 25px;
+}
+
+.topnav input[type="text"] {
+font-size: 13px;
+}
+
+#add {
+	
+	padding-left: 10%;
+}
+
+#addcart {
+    margin-top: 10%;
+}
+
+	
+}
+
+
+
+@media screen and (max-width: 375px) {
+	
+#centro{
+		margin-top: 8%;
+}
+	
+
+#parametri input[type="submit"] {
+	
+	margin-left:-20%;
+	
+}
+	
+	#sopra {
+    margin-top: 12%;
+}
+
+	   	#new a {
+    
+    padding: 0.5% 3% 0.5% 3%;
+
+}
+
+	#newg a {
+    
+    padding: 0.5% 20% 0.5% 20%;
+
+}
+
+	#prodotti a {
+		padding: 1% 1% 1% 1%;
+	}
+
+	
+	#send2 input[type="submit"] {
+    margin-left: 55%;
+	}
+	
+
+.topnav input[type="text"] {
+font-size: 13px;
+}
+
+#add {
+	
+	padding-left: 10%;
+}
+
+#addcart {
+    margin-top: 10%;
+}
+
+
+
+#dati1 input[type="text"], #dati3 input[type="text"], #dati2 input[type="text"], #dati4 input[type="text"] {
+    width: 98%;
+    
+}
+
+#dati2 input[type="email"] {
+   width: 98%;
+}
+
+#dati4 input[type="password"], #dati3 input[type="password"] {
+   width: 98%;
+}
+
+#send2 input[type="submit"] {
+	
+	margin-left: 48%;
+
+}
+	
+	
+}
+
+
+
+
